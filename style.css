@@ -1,0 +1,166 @@
+body{
+	margin:0;
+	font-family:"Times New Roman", serif;
+}
+#wrapper{
+	width:960px;
+	margin:auto;
+	border:#E8C9B5 1px solid;
+	overflow:hidden; /* supaya wrapper ikut membungkus elemen float */
+}
+
+/* HEADER */
+header{
+	height:90px;
+	width:960px;
+	float:left;
+}
+header .banner{
+	float:left;
+	width:760px;
+	height:90px;
+	box-sizing:border-box;
+	padding:15px 20px;
+	text-align:right;
+	color:#fff;
+	background:url('../img/background.png') center/cover;
+}
+header .banner h1{
+	margin:0;
+	font-family:Arial, sans-serif;
+	font-size:28px;
+}
+header .banner p{
+	margin:5px 0 0;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+}
+header .lihat{
+	float:left;
+	width:200px;
+	line-height:90px;
+	text-align:center;
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#3D2C4D;
+	text-decoration:none;
+}
+
+/* MENU */
+nav{
+	height:34px;
+	width:960px;
+	float:left;
+	background:#d9d9d9;
+	border-bottom:1px solid #aaa;
+}
+nav a{
+	float:left;
+	line-height:34px;
+	padding:0 10px;
+	color:#000;
+	text-decoration:none;
+	border-right:1px solid #888;
+}
+nav a:hover{
+	text-decoration:underline;
+}
+
+/* ISI KIRI */
+#wrapper content{
+	display:block;
+	width:620px;
+	float:left;
+	padding:10px;
+	background:#FFF8F1;
+}
+.card{
+	overflow:hidden;
+	background:#fff;
+	border:1px solid #ddd;
+	padding:8px;
+	margin-bottom:10px;
+}
+.card img{
+	float:left;
+	width:110px;
+	height:100px;
+	object-fit:cover;
+	margin-right:8px;
+}
+.card h3{
+	margin:0 0 4px;
+	padding:3px 6px;
+	background:#e6e6e6;
+	font-family:Arial, sans-serif;
+	font-size:18px;
+}
+.card p{
+	margin:0;
+	font-size:13px;
+	text-align:justify;
+}
+.tombol{
+	float:right;
+	margin-top:6px;
+	background:#c8f04d;
+	border:1px solid #8cb800;
+	border-radius:12px;
+	padding:2px 10px;
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+}
+
+/* SIDEBAR KANAN */
+#wrapper aside{
+	width:280px;
+	float:left;
+	padding:10px 10px 10px 20px;
+}
+aside h2{
+	margin:0 0 12px;
+	font-size:24px;
+}
+aside ul{
+	list-style:none;
+	margin:0 0 20px;
+	padding:0;
+}
+aside li{
+	margin-bottom:5px;
+}
+aside a{
+	color:#3b5200;
+	text-decoration:none;
+}
+aside a:hover{
+	text-decoration:underline;
+}
+
+/* FOOTER */
+footer{
+	width:960px;
+	float:left;
+	background:#333333;
+	color:#BBBBBB;
+}
+footer #column{
+	width:300px;
+	float:left;
+	padding:10px;
+	font-size:14px;
+}
+footer #column h2{
+	margin:0px;
+	margin-bottom:10px;
+	font-family : Tahoma;
+	font-size:18px;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+footer #column a{
+	color:#0099cc;
+	text-decoration: none;
+}
